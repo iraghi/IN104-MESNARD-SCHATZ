@@ -47,7 +47,7 @@ int main()
                             int y = event.mouseButton.y;
                             
                             //Bouton Play
-                            if (118<x && x<484 && 718<y && y<802)
+                            if (118<x && x<484 && 600<y && y<902)
                             {
                                 manualPlayer = open_menu.manualPlayer_;
                                 nbCP = open_menu.nbCP_;
@@ -55,12 +55,12 @@ int main()
                             }    
                             
                             // +/- Boutons
-                            else if (178<x && x<206 && 446<y && y<478)
+                            else if (178<x && x<206 && 416<y && y<488)
                             {
                                 if (open_menu.nbCP_> 2)
                                     open_menu.nbCP_ -=1;
                             }
-                            else if (470<x && x<490 && 446<y && y<478)
+                            else if (470<x && x<490 && 426<y && y<488)
                             {
                                 if (open_menu.nbCP_< 9)
                                     open_menu.nbCP_ +=1;

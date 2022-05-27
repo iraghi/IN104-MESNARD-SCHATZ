@@ -8,7 +8,7 @@ const unsigned int HEIGHT_VIEW = 9000;
 
 Menu::Menu()
 {
-    if (!backgroundTexture_.loadFromFile("/home/ensta/IN104/projet/repository/Images/Menu_bg.png"))
+    if (!backgroundTexture_.loadFromFile("./Images/Menu_bg.png"))
     {
         printf("error");
     } 
@@ -20,7 +20,7 @@ Menu::Menu()
     nbCP_ = 5;
     manualPlayer_ = 0;
 
-    if (!nbCPFont_.loadFromFile("/home/ensta/IN104/projet/repository/Trispace.ttf"))
+    if (!nbCPFont_.loadFromFile("./Trispace.ttf"))
         printf("error");
     nbCPText_.setFont(nbCPFont_);
     nbCPText_.setFillColor(sf::Color::White);

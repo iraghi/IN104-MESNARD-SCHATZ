@@ -41,7 +41,7 @@ void Game::addPod(int manualPlayer)
     sf::Texture podTexture1;
     sf::Sprite podSprite1;
     
-    if (!podTexture1.loadFromFile("/home/ensta/IN104/projet/repository/Images/BSGCylon.png"))
+    if (!podTexture1.loadFromFile("./Images/BSGCylon.png"))
     {
         printf("Texture error\n");
     }
@@ -56,7 +56,7 @@ void Game::addPod(int manualPlayer)
     sf::Texture podTexture2;
     sf::Sprite podSprite2;
 
-    if (!podTexture2.loadFromFile("/home/ensta/IN104/projet/repository/Images/BSGViper.png"))
+    if (!podTexture2.loadFromFile("./Images/BSGViper.png"))
     {
         printf("Texture error\n");
     }
@@ -93,7 +93,7 @@ void Game::initDecompte()
     sf::Texture decompteTexture3;
     sf::Sprite decompteSprite3;
     
-    if (!decompteTexture3.loadFromFile("/home/ensta/IN104/projet/repository/Images/3.png"))
+    if (!decompteTexture3.loadFromFile("./Images/3.png"))
         printf("Texture error\n");
     
     decompteTextures_.emplace_back(decompteTexture3);
@@ -102,7 +102,7 @@ void Game::initDecompte()
     sf::Texture decompteTexture2;
     sf::Sprite decompteSprite2;
     
-    if (!decompteTexture2.loadFromFile("/home/ensta/IN104/projet/repository/Images/2.png"))
+    if (!decompteTexture2.loadFromFile("./Images/2.png"))
         printf("Texture error\n");
     
     decompteTextures_.emplace_back(decompteTexture2);
@@ -111,7 +111,7 @@ void Game::initDecompte()
     sf::Texture decompteTexture1;
     sf::Sprite decompteSprite1;
     
-    if (!decompteTexture1.loadFromFile("/home/ensta/IN104/projet/repository/Images/1.png"))
+    if (!decompteTexture1.loadFromFile("./Images/1.png"))
         printf("Texture error\n");
     
     decompteTextures_.emplace_back(decompteTexture1);

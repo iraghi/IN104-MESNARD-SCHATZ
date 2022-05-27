@@ -13,8 +13,8 @@ const unsigned int NUMBER_OF_LAPS = 3;
 const float FRICTION_COEFF = 0.85;
 const float ROTA_MAX = M_PI/10.;
 const sf::Time PHYSICS_TIME_STEP = sf::milliseconds(100);
-const std::string IMAGES_PATH = "../repository/Images/";
-const std::string FONT_PATH = "../repository/";
+const std::string IMAGES_PATH = "./Images/";
+const std::string FONT_PATH = "./";
 
 struct GameInfos
 {

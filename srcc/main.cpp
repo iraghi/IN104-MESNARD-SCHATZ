@@ -15,9 +15,9 @@ int main()
     sf::Texture background;
     sf::Texture FighterG;
     sf::Texture FighterY;
-    background.loadFromFile("../repository/Images/background.png");
-    FighterG.loadFromFile("../repository/Images/NMSFighterG.png");
-    FighterY.loadFromFile("../repository/Images/NMSFighterY.png");
+    background.loadFromFile("./Images/background.png");
+    FighterG.loadFromFile("./Images/NMSFighterG.png");
+    FighterY.loadFromFile("./Images/NMSFighterY.png");
 
     sf::Sprite sprite_B;
     sf::Sprite sprite_G;
